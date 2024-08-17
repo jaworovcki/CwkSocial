@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CwkSocial.Api", "CwkSocial.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CwkSocial.Domain", "CwkSocial.Domain\CwkSocial.Domain.csproj", "{3D39BFE4-7E06-475D-BCCA-F6CFE2739EAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CwkSocial.Application", "CwkSocial.Application\CwkSocial.Application.csproj", "{8AD448B7-E69D-470A-88AE-212EFE76BCFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{3D39BFE4-7E06-475D-BCCA-F6CFE2739EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D39BFE4-7E06-475D-BCCA-F6CFE2739EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D39BFE4-7E06-475D-BCCA-F6CFE2739EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AD448B7-E69D-470A-88AE-212EFE76BCFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD448B7-E69D-470A-88AE-212EFE76BCFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD448B7-E69D-470A-88AE-212EFE76BCFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD448B7-E69D-470A-88AE-212EFE76BCFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
