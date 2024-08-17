@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CwkSocial.Api", "CwkSocial.Api\CwkSocial.Api.csproj", "{74418FE9-4645-478A-8A4F-303C0A0A4A32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CwkSocial.Domain", "CwkSocial.Domain\CwkSocial.Domain.csproj", "{3D39BFE4-7E06-475D-BCCA-F6CFE2739EAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{74418FE9-4645-478A-8A4F-303C0A0A4A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74418FE9-4645-478A-8A4F-303C0A0A4A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74418FE9-4645-478A-8A4F-303C0A0A4A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D39BFE4-7E06-475D-BCCA-F6CFE2739EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D39BFE4-7E06-475D-BCCA-F6CFE2739EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D39BFE4-7E06-475D-BCCA-F6CFE2739EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D39BFE4-7E06-475D-BCCA-F6CFE2739EAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
