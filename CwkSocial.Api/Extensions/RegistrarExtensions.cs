@@ -24,7 +24,7 @@ public static class RegistrarExtensions
         }
     }
 
-    private static IEnumerable<T> GetRegistrars<T>(Type scanningType) where T : class
+    private static IEnumerable<T> GetRegistrars<T>(Type scanningType) where T : IRegistrar
     {
         return scanningType.Assembly.GetTypes()
             .Where(t => t.IsAssignableTo(typeof(T)) && !t.IsAbstract && !t.IsInterface)
