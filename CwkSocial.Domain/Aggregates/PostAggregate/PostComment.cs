@@ -3,7 +3,7 @@ public class PostComment
 {
     private PostComment() {}
 
-    public Guid CommentId { get; private set; }
+    public Guid PostCommentId { get; private set; }
     public Guid PostId { get; private set; }
     public Guid UserProfileId { get; private set; }
 
@@ -16,7 +16,7 @@ public class PostComment
     {
         var postComment = new PostComment
         {
-            CommentId = postId,
+            PostCommentId = postId,
             UserProfileId = userProfileId,
             TextContent = textContent,
             DateCreated = DateTime.UtcNow,
